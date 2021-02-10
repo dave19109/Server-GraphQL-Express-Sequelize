@@ -1,0 +1,30 @@
+{
+  "development": {
+    "username": "xxxx",
+    "password": "xxxxx",
+    "database": "xxxx",
+    "port": 8889,
+    "host": "localhost",
+    "dialect": "mysql",
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "acquire": 30000,
+      "idle": 10000
+    }
+  },
+  "production": {
+    "username": "xxxx",
+    "password": "xxxx",
+    "database": "xxxx",
+    "port": 3307,
+    "host": "localhost",
+    "dialect": "mysql",
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "acquire": 30000,
+      "idle": 10000
+    }
+  }
+}
